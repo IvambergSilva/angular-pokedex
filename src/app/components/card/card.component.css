@@ -1,0 +1,143 @@
+.container-card {
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 20px #00000080;
+    background: #F0F0F0;
+}
+
+.card-body {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #C1C1C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card .card-body img {
+    height: 100%;
+}
+
+.container-card .card-description {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+    row-gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container-card .card-description .card-description-id {
+    font: 600 18px Verdana, Geneva, Tahoma, sans-serif;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.container-card .card-description .card-description-title {
+    font: 700 25px Verdana, Geneva, Tahoma, sans-serif;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-transform: capitalize;
+}
+
+.container-card .card-description .card-description-stats {
+    grid-area: 'card-stats-type';
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.container-card .card-description .card-description-stats ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-stats-type {
+    background: #C1C1C1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    list-style-type: none;
+    margin-left: 10px;
+    font: 500 12px Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.normal {
+    background: #a6a877;
+}
+
+.grass {
+    background: #77c850;
+}
+
+.fire {
+    background: #ee7f30;
+}
+
+.water {
+    background: #678fee;
+}
+
+.electric {
+    background: #f7cf2e;
+}
+
+.ice {
+    background: #98d5d7;
+}
+
+.ground {
+    background: #dfbf69;
+}
+
+.flying {
+    background: #a98ff0;
+}
+
+.poison {
+    background: #a040a0;
+}
+
+.fighting {
+    background: #bf3029;
+}
+
+.psychic {
+    background: #f65687;
+}
+
+.dark {
+    background: #725847;
+}
+
+.rock {
+    background: #b8a137;
+}
+
+.bug {
+    background: #a8b720;
+}
+
+.ghost {
+    background: #6e5896;
+}
+
+.steel {
+    background: #b9b7cf;
+}
+
+.dragon {
+    background: #6f38f6;
+}
+
+.fairy {
+    background: #f9aec7;
+}

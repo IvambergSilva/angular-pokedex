@@ -1,0 +1,6 @@
+<div class="container">
+    <div class="home-input">
+        <input type="text" (input)="getValuePokemon($any($event.target).value)" id="home-input-search" placeholder="Digite o nome de um pokemon">
+    </div>
+    <app-card [namePokemon]="getNamePokemon"></app-card>
+</div>

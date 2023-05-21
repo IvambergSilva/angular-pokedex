@@ -1,0 +1,22 @@
+<div class="container-card">
+    <div class="card-body {{pokemon.types[0].type.name}}">
+        <img [src]="pokemon.sprites.other.dream_world.front_default" alt="pokemon">
+    </div>
+    <div class="card-description">
+        <div class="card-description-id">
+            <p>#{{pokemon.id}}</p>
+        </div>
+        <div class="card-description-title">
+            <h3>{{pokemon.name}}</h3>
+        </div>
+        <div class="card-description-stats">
+            <ul>
+                <li
+                    *ngFor="let t of pokemon.types"
+                    class="card-stats-type {{t.type.name}}">
+                    {{t.type.name}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.container {
+    max-width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+}
+
+.home-input {
+    width: 100%;
+}
+
+#home-input-search{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    font: 500 18px Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
