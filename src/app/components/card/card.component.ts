@@ -35,7 +35,7 @@ export class CardComponent implements OnInit, OnChanges{
   }   
 
   ngOnChanges() {
-    this.getPokemon(this.namePokemon)   
+    this.getPokemon(this.namePokemon.toLowerCase())   
   }
 
   getPokemon(searchName: string){
